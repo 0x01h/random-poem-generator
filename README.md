@@ -24,4 +24,4 @@ Random poem generator script using [PoetryDB](https://github.com/thundercomb/poe
 `A night-beam Sorrow watcheth to behold,`<br /> 
 `Distinct, but distant--clear--but, oh how cold!`<br />
 
-It just a simple script, so feel free to contribute and send pull requests to the project. :cat:
+It's just a simple script, so feel free to contribute and send pull requests to the project. :cat:
