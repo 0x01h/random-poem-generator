@@ -1,9 +1,11 @@
+#!/usr/bin/env python3
+
 import random
 import json
 import urllib.request
 import urllib.parse
 
-def string():
+def random_poem():
     contents = urllib.request.urlopen("http://poetrydb.org/title").read()
     readable = contents.decode('utf-8')
 
@@ -29,4 +31,4 @@ def string():
 
     return data
 
-string()
+random_poem()
