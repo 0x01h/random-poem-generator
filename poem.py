@@ -22,18 +22,18 @@ def random_poem():
         title = data[0]['title']
         author = data[0]['author']
         lines = data[0]['lines']
-        poem = ""
+        poem = "\n"
 
-        print (title)
-        print (author)
-        
+        print ("Author: " + author + "\n")
+        print ("Title: " + title)
+
         for i in range(0,len(lines)):
             poem = poem + (lines[i]) + " \n"
-            
+
         print (poem)
 
         return data
-    
+
     except:
         print ("Something went wrong!")
 
