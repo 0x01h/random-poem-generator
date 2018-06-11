@@ -1,5 +1,5 @@
 # Random Poem Generator 
-Random poem generator script using [PoetryDB](https://github.com/thundercomb/poetrydb) written in Python. It just selects one of the poem from the database that has 2971 different poems from many different poets. Please look at the [PoetryDB](http://poetrydb.org) website for the detailed documentation. :octocat:
+Random poem generator script using [PoetryDB](https://github.com/thundercomb/poetrydb) written in Python. It just selects one of the poem from the database that has 2972 different poems written by 128 different poets. Please look at the [PoetryDB](http://poetrydb.org) website for the detailed documentation. :octocat:
 
 ## Example Outputs
 `> ./poem.py`<br /><br />
