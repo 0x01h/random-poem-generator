@@ -12,7 +12,7 @@ def random_poem():
 
         data = json.loads(readable)
 
-        poemUrl = "http://poetrydb.org/title/" + urllib.parse.quote((data['titles'][random.randint(0,2971)]), safe=':/?*=\'')
+        poemUrl = "http://poetrydb.org/title/" + urllib.parse.quote((data['titles'][random.randint(0,2971)]), safe='-\"\\,.:;[]/!’()É_`?*=\'')
 
         contents = urllib.request.urlopen(poemUrl).read()
         readable = contents.decode('utf-8')
