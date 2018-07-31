@@ -6,7 +6,7 @@ import json
 import urllib.request
 import urllib.parse
 
-def random_poem():
+def main():
     try:
         contents = urllib.request.urlopen("http://poetrydb.org/title").read()
         readable = contents.decode('utf-8')
@@ -38,4 +38,5 @@ def random_poem():
     except:
         print ("Something went wrong!")
 
-random_poem()
+if __name__ == '__main__':
+    main()
